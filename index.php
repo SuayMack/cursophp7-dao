@@ -28,23 +28,20 @@ require_once("config.php");
 
 
 //Alterar um usuário
+//$usuario = new Usuario();
+//$usuario->loadById(12);
+//$usuario->update("professor", "!@#$%¨&*");
+//echo $usuario;
+
+
+
 $usuario = new Usuario();
 
-$usuario->loadById(12);
-
-$usuario->update("professor", "!@#$%¨&*");
-
-echo $usuario;
-
-
-/*
-$usuario = new Usuario();
-
-$usuario->loadById(5);
+$usuario->loadById(11);
 
 $usuario->delete();
 
 echo $usuario;
-*/
+
 
 ?>
